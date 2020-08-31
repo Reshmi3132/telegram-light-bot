@@ -9,6 +9,8 @@ z = os.getenv('TELEGRAM_API_TOKEN') #telegram bot token
 # Import library and create instance of REST client.
 from Adafruit_IO import Client, Feed
 aio = Client(x,y)
+new = Feed(name='mylightbot')
+
 
 bot = telebot.TeleBot(z)
 @bot.message_handler(commands=['start', 'help'])
