@@ -12,7 +12,7 @@ aio = Client(x,y)
 
 bot = telebot.TeleBot(z)
 
-from telegram.ext import Updater
+from telegram.ext import Updater,CommandHandler
 import requests
 chat_id ='1112488868'
 
