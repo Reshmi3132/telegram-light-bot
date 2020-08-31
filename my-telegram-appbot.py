@@ -29,4 +29,4 @@ def echo_all(message):
     aio.create_data('mylightbot', data)
     bot.reply_to(message,'light is off')
 bot.polling()
-
+ 
