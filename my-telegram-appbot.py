@@ -11,9 +11,6 @@ from Adafruit_IO import Client, Feed
 aio = Client(x,y)
 
 bot = telebot.TeleBot(z)
-
-from telegram.ext import Updater,CommandHandler
-import requests
 chat_id ='1112488868'
 
 @bot.message_handler(commands=['start', 'help'])
