@@ -1,6 +1,6 @@
 import os
 import telebot
-import digitalio
+
 $ pip install adafruit-io
 $ pip install pyTelegramBotAPI
 x = os.getenv("ADAFRUIT_IO_USERNAME") #ADAFRUIT_IO_USERNAME
